@@ -2,8 +2,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
-
 def missing_values_table(df):
         # Total missing values
         mis_val = df.isnull().sum()
